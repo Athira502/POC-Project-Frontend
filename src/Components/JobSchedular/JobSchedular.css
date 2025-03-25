@@ -1,0 +1,105 @@
+.job-schedular {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #6482AD;
+    /* background-color:#fff; */
+  }
+  
+  .job-scheduler-container {
+    padding: 20px;
+    background-color: #6482AD;
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  
+
+  
+  
+  .process-button{ 
+    align-items: center; 
+    height: 100%; 
+    margin-top: auto; 
+     padding: 8px 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s;
+    background-color: #f5f5f5;
+    color: black;
+  }
+  
+ 
+  
+  .process-button:hover {
+    background-color: #6482AD;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .log-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f5f5f5;
+  }
+  
+  .log-table th{
+    padding:10px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .log-table td {
+    padding:6px 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size:12px;
+  }
+  
+  .log-table th {
+    padding:10px 10px 15px 15px;
+
+    font-weight:100px;
+    font-size:12px;
+  }
+  
+  .log-table tr:hover {
+    background-color: #000000;
+    color:rgb(253, 253, 253);
+  }
+  
+  .loading{
+
+    font-size:larger;
+    font-weight: bolder;
+    color:white;
+    text-align: center;
+    margin-top: 30px;
+
+  }
+
+  .message-box{
+    font-size:larger;
+    font-weight: bolder;
+    color:white;
+    text-align: center;
+    margin-top: 30px;
+
+  }
+
+  .error-box{
+    font-size:larger;
+    font-weight: bolder;
+    color:white;
+    text-align: center;
+    margin-top: 30px;
+
+  }
